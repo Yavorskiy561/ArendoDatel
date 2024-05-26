@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arendat</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <div class="wrapper d-flex flex-column min-vh-100">
+        <!--Шапка-->
+        <header class="d-flex justify-content-around p-3 border-bottom border-3">
+            <a class="mb-3 mb-md-0 justify-content-center text-decoration-none" href="#">
+                <h1 class="text-success">ARENDA</h1>
+            </a>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link text-success" href="#">О сайте</a></li>
+                <li class="nav-item"><a class="nav-link text-success" href="#">Аренда</a></li>
+                <li class="nav-item"><a href=""><img src="/img/profile-svgrepo-com (1).svg" height="40" alt=""></a></li>
+                <li class="nav-item"><a class="nav-link text-success" href="#">Добавить объявление</a></li>
+            </ul>
+        </header>
+        <!--Контент-->
+        <section class="mb-3"> 
+                <div class="container">
+                    <div class="row border-bottom border-2">
+                        <div class="col">
+                            <h4 class="text-center p-3">Аренда земельных участков</h4>
+                        </div>
+                    </div>
+                    <div class="row border-bottom p-3">
+                        <div class="col ">
+                            <div class="d-flex">
+                                <img src="" alt="" width="216" height="162">
+                                <div>
+                                  <h5 class="itd-name"></h5>  
+                                  <p class="itd-description"></p>
+                                  <div class="d-flex p-1">
+                                    <button class="btn btn-success btn-toggle d-inline-flex align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#contacts" aria-expanded="false">
+                                        Показать контакты
+                                    </button>
+                                    <button class="btn btn-success">
+                                        <img src="/img/heart-svgrepo-com.svg" height="20" alt="">
+                                        В избранное
+                                    </button>
+                                    <button class="btn btn-success">Скрыть</button>
+                                    
+                                  </div>
+                                    <div class="collapse" id="contacts">
+                                        <ul>
+                                            <li><a class="itd-telephone me-2" href="tel:+"></a></li>
+                                            <li><a class="itd-mail me-2" href="mailto:"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!--Подвал-->
+        <footer class="d-flex justify-content-around p-3 bg-success mt-auto">
+            <p class="col-md-6 mb-0 text-light">© 2024 Company, Inc</p>
+
+        </footer>
+    </div>
+    
+</body>
+</html>

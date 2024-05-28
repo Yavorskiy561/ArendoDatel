@@ -48,29 +48,18 @@
         <!--Объявление-->
         <section class="mb-3"> 
             <div class="container"> 
-               
-                <div id="itd-row" class="row border-bottom p-3">
-                    <div class="col">
-                        <div class="d-flex">
-                                <img src="" alt="" width="216" height="162">
-                            <div>
-                                <h5 class="itd-name"></h5>  
-                                <p class="itd-description"></p> 
-                                <div class="d-flex p-1 me-2">
-                                    <button class="btn btn-success btn-toggle d-inline-flex align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#contacts" aria-expanded="false">
-                                        Показать контакты
-                                    </button>
-                                    <button class="btn btn-success">Скрыть</button>
-                                </div>
-                            </div>
-                            <!--Показ контактов-->
-                                <div class="collapse" id="contacts">
-                                    <a class="itd-telephone me-2" href="tel:+"></a><br>
-                                    <button class="btn btn-outline-success">Жалоба</button>
-                                </div>
-                        </div>
+                <div id="itd-row" class="row p-3">
+                    <table class="table" id="table">
+                        <tr>
+                            <th class="col text-success" id="adress">Адрес</th>
+                            <th class="col text-success" id="description">Описание</th>
+                            <th class="col text-success" id="amount">Стоимоть</th>
+                            <th class="col text-success" id="square">Площадь</th>
+                        </tr>
+                        <tbody id="tableBody">
                             
-                    </div>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>

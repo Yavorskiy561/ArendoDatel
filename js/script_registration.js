@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         alert('Регистрация прошла успешно\nПользователь ' + nameUser);
 
-        window.open("index_orders.html");
+        window.open("index-add.html");
         
     });
 });

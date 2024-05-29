@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // If the user is found, redirect to the index_orders.html page
         if (isUserFound) {
-            window.location.href = 'index_orders.html';
+            window.location.href = 'index-add.html';
         } else {
             // If the user is not found, show an error message
             alert('Такого пользователя не существует. Повторите попутку.');
